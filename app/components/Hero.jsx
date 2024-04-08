@@ -31,18 +31,18 @@ export default function Hero() {
           
          </h1>
           <p className='text-[#ADB7BE]  text-base sm:text-lg lg:text-xl mb-6 '>
-            Self taught front-end developer who is able to realise project from the ground up.
+            Self taught frontend developer with some knowledge of the backend,I'm able to realise project from the ground up.
             I'm well versed in key languages and i'm able to design,code and deploy in an organised and efficient manner
           </p>
           
         </div>
         <div className='col-span-5 place-self-center mt-4 lg:mt-0 '>
-          <div >
+          <div className=' w-auto h-auto'>
             <Image src={overflow}
-           className='rounded-full '
+           className='rounded-full w-200 h-200' 
+
             alt='logo'
-            width='{300}' 
-            height='{300}'/> 
+           /> 
 
           </div>
 

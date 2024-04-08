@@ -29,7 +29,7 @@ export default function Navbar() {
    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
     <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-2'>
         <Link href={"/"}> 
-        <Image src={logo} alt="Logo" width={50} height={50}  className='rounded-full'/> 
+        <Image src={logo} alt="Logo"   className='rounded-full w-20 h-20'/> 
         </Link>
         <div className='mobile-menu block md:hidden'>
             {

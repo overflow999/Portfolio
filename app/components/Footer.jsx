@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="container p-12 flex justify-between">
       <Link href={"/"}> 
-        <Image src={logo} alt="Logo" width={60} height={60} className='rounded-full opacity-0.1'/> 
+        <Image src={logo} alt="Logo"  className='rounded-full  w-20 h-20 opacity-50'/> 
       </Link>
         <p className="text-slate-600">All rights reserved.</p>
       </div>
