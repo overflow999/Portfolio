@@ -20,8 +20,8 @@ const projectsData = [
     description: "Project 1 description",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/overflow999/portfolio",
+    previewUrl: "https://portfolio-zeta-eight-90.vercel.app/",
   },
   {
     id: 3,
